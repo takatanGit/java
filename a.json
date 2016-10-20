@@ -1,0 +1,94 @@
+
+{
+  "ResultInfo": {
+    "Count": 1,
+    "Total": 1,
+    "Start": 1,
+    "Status": 200,
+    "Latency": 0.005635,
+    "Description": "",
+    "Copyright": "(C) Yahoo Japan Corporation."
+  },
+  "Feature": [
+    {
+      "Id": "201610191800_139.73229_35.663613",
+      "Name": "地点(139.73229,35.663613)の2016年10月19日 18時00分から120分間の天気情報",
+      "Geometry": {
+        "Type": "point",
+        "Coordinates": "139.73229,35.663613"
+      },
+      "Property": {
+        "WeatherAreaCode": 4410,
+        "WeatherList": {
+          "Weather": [
+            {
+              "Type": "observation",
+              "Date": "201610191800",
+              "Rainfall": 0
+            },
+            {
+              "Type": "observation",
+              "Date": "201610191810",
+              "Rainfall": 0
+            },
+            {
+              "Type": "observation",
+              "Date": "201610191820",
+              "Rainfall": 0
+            },
+            {
+              "Type": "observation",
+              "Date": "201610191830",
+              "Rainfall": 0
+            },
+            {
+              "Type": "observation",
+              "Date": "201610191840",
+              "Rainfall": 0
+            },
+            {
+              "Type": "observation",
+              "Date": "201610191850",
+              "Rainfall": 0
+            },
+            {
+              "Type": "observation",
+              "Date": "201610191900",
+              "Rainfall": 0
+            },
+            {
+              "Type": "forecast",
+              "Date": "201610191910",
+              "Rainfall": 0
+            },
+            {
+              "Type": "forecast",
+              "Date": "201610191920",
+              "Rainfall": 0
+            },
+            {
+              "Type": "forecast",
+              "Date": "201610191930",
+              "Rainfall": 0
+            },
+            {
+              "Type": "forecast",
+              "Date": "201610191940",
+              "Rainfall": 0
+            },
+            {
+              "Type": "forecast",
+              "Date": "201610191950",
+              "Rainfall": 0
+            },
+            {
+              "Type": "forecast",
+              "Date": "201610192000",
+              "Rainfall": 0
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
