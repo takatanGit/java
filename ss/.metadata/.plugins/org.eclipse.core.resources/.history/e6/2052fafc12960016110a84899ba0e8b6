@@ -1,0 +1,13 @@
+package com.example.bean;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class ResultInfo {
+	private Integer count;
+	private Integer total;
+	private Integer start;
+	private Integer status;
+	private double latency;
+	private String description;
+	}

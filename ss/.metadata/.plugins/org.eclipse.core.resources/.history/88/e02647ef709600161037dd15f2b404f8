@@ -1,0 +1,30 @@
+package com.example.bean;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+@JsonIgnoreProperties(ignoreUnknown=true)
+public class Geometry {
+	@JsonProperty("Type")
+	private String Type;
+	
+	@JsonProperty("Coordinates")
+	private String Coordinates;
+	
+	@JsonProperty("Type")
+	public String getType() {
+		return Type;
+	}
+	public void setType(String type) {
+		Type = type;
+	}
+	
+	@JsonProperty("Coordinates")
+	public String getCoordinates() {
+		return Coordinates;
+	}
+	public void setCoordinates(String coordinates) {
+		Coordinates = coordinates;
+	}
+	
+}

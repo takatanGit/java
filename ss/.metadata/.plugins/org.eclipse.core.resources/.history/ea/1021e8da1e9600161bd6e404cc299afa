@@ -1,0 +1,18 @@
+package com.example.bean;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+//@JsonIgnoreProperties(ignoreUnknown=true)
+public class JsonBean {
+	private Object YDF;
+
+	public Object getYDF() {
+		return YDF;
+	}
+
+	public void setYDF(Object yDF) {
+		YDF = yDF;
+	}
+	
+	
+}
