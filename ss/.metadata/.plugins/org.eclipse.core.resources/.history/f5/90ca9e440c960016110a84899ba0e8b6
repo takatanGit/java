@@ -1,0 +1,9 @@
+package com.example.bean;
+
+public class JsonBean {
+	
+	public ResultInfoBean resultinfoBean;
+	public FeatureBean	  featureBean;
+	
+	
+}
